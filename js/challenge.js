@@ -5,7 +5,7 @@ function _toConsumableArray(a) {
     }
     return Array.from(a)
 }
-
+//defines variables
 let playing = !0,
     timer = function(){
         return setInterval(function(){
@@ -21,6 +21,7 @@ let playing = !0,
     pause = document.getElementById('pause'),
     commentForm = document.getElementsByTagName('form')[0]
 
+//add the event listeners
 minus.addEventListener('click', ()=>{
     let a = document.getElementById('counter'),
     b = parseInt(a.innerText)
